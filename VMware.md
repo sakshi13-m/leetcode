@@ -24,6 +24,8 @@ for i in range(digit-1,-1,-1):
     elif(f1==1 and f2==0 and t[i]<9 ):
         t[i]+=1
         f2=1
+    else:
+        break
 print(''.join(str(i) for i in t))
 
 ```
